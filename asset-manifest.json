@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kabakmichal/goit-react-hw-01-components/static/css/main.3dfd8b29.css",
+    "main.js": "/kabakmichal/goit-react-hw-01-components/static/js/main.c2c383a3.js",
+    "index.html": "/kabakmichal/goit-react-hw-01-components/index.html",
+    "main.3dfd8b29.css.map": "/kabakmichal/goit-react-hw-01-components/static/css/main.3dfd8b29.css.map",
+    "main.c2c383a3.js.map": "/kabakmichal/goit-react-hw-01-components/static/js/main.c2c383a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dfd8b29.css",
+    "static/js/main.c2c383a3.js"
+  ]
+}
