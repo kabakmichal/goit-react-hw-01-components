@@ -1,21 +1,21 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './components/App';
 
-import Profile from "./components/Profile/Profile";
-import user from "./components/Profile/user.json";
+import Profile from './components/Profile/Profile';
+import user from './components/Profile/user.json';
 
-import Statistics from "./components/Statistics/Statistics";
-import data from "./components/Statistics/data.json";
+import Statistics from './components/Statistics/Statistics';
+import data from './components/Statistics/data.json';
 
-import FriendList from "./components/FriendList/FriendList";
-import friends from "./components/FriendList/friends.json";
+import FriendList from './components/FriendList/FriendList';
+import friends from './components/FriendList/friends.json';
 
-import Transactions from "./components/Transactions/Transactions.jsx";
-import history from "./components/Transactions/transactions.json";
+import Transactions from './components/Transactions/Transactions.jsx';
+import history from './components/Transactions/transactions.json';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App>

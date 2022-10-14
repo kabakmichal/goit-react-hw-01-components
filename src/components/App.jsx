@@ -1,16 +1,25 @@
-export const App = () => {
+import PropTypes from 'prop-types';
+
+const App = ({ children }) => {
   return (
     <div
       style={{
-        height: '100vh',
+        height: '100%',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
+        padding: '50px 10px',
       }}
     >
-      React homework template
+      {children}
     </div>
   );
 };
+
+App.propTypes = {
+  children: PropTypes.array.isRequired,
+};
+
+export default App;
