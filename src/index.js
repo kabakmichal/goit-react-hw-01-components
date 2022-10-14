@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App';
 
-import Profile from './components/Profile/Profile';
+import Profile from 'components/Profile/Profile';
 import user from './components/Profile/user.json';
 
 import Statistics from './components/Statistics/Statistics';
